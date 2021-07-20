@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.application {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: auto;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    display: block;
+    width: auto;
+}
+
+ol {
+    border: 1px solid black;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#x, #d {
+    margin-left: 6px;
+}
+
+#output {
+    display: block;
+}

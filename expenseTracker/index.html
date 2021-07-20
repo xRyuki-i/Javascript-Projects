@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link href="style.css" rel="stylesheet">
+        <script src ="script.js" defer></script>
+    </head>
+    
+    <body>
+        <div id="application">
+            <h1>Expense Tracker</h1>
+
+            <h2>Add A New Item</h2>
+
+            <div id="input">
+
+                <label>Name:</label>
+                <input id="name" type="text">
+
+                <label>Date:</label>
+                <input data-date type="date">
+
+                <label>Amount:</label>
+                <input id="amount" type="text">
+            </div>
+
+            <button data-add id="add">Add Expense</button>
+
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th></th>
+                </tr>
+                
+                <tr id="removable">
+                    <th>No Expenses Added Yet</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+
+                <!-- <tr>
+                    <td>Hello</td>
+                    <td>This</td>
+                    <td>is Summit</td>
+                    <td><button>x</button></td>
+                </tr>           -->
+            </table>
+        </div>
+    </body>
+    
+</html>
